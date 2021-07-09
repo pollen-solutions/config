@@ -9,5 +9,5 @@ Pollen Solutions **Config** Component provides a configuration parameters tools 
 ## Installation
 
 ```bash
-composer require pollen-solutions/filesystem
+composer require pollen-solutions/config
 ```
