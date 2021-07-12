@@ -15,7 +15,7 @@ class Configurator implements ConfiguratorInterface
      * Configurator main instance.
      * @var static|null
      */
-    private static ?ConfiguratorInterface $instance;
+    private static ?ConfiguratorInterface $instance = null;
 
     /**
      * Config DataBag instance.
@@ -33,7 +33,7 @@ class Configurator implements ConfiguratorInterface
      * List of strict configuration parameters keys.
      * @var string[]
      */
-    protected $strictConfigKeys = [];
+    protected array $strictConfigKeys = [];
 
     /**
      * @param array $config
